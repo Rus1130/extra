@@ -1,10 +1,10 @@
 
 //help function
-export function ejsHelp(){
+function ejsHelp(){
     return "ejsBasicMath(operation, num1, num2) \n ejsAdvMath(operation, num1, num2)"
 }
 
-export function ejsHelp(name){
+function ejsHelp(name){
     switch(name){
         case basicMath:
             return "operaton: add (a), subtract (s), multiply (m), and divide (d) \n num1: a number \n num2: another number"
@@ -17,7 +17,7 @@ export function ejsHelp(name){
 
 //basic math
 
-export function ejsBasicMath(operation, num1, num2){
+function ejsBasicMath(operation, num1, num2){
     switch(operation){
         case "a":
             return parseInt(num1) + parseInt(num2);
@@ -36,7 +36,7 @@ export function ejsBasicMath(operation, num1, num2){
 
 //advanced math
 
-export function ejsAdvMath(operation, num1, num2){
+function ejsAdvMath(operation, num1, num2){
     switch(operation){
         case "m":
             return parseInt(num1) % parseInt(num2)
