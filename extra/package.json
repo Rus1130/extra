@@ -4,7 +4,7 @@
     "main": "index.js",
     "repository": {
         "type":"git",
-        "url":"https://github.com/Rus1130/extra.git"
+        "url":"git+https://github.com/Rus1130/extra.git"
 
     }
 }

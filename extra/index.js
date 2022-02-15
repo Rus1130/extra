@@ -6,10 +6,10 @@ function ejsHelp(){
 
 function ejsHelp(name){
     switch(name){
-        case BasicMath:
+        case basicMath:
             return "operaton: add (a), subtract (s), multiply (m), and divide (d) \n num1: a number \n num2: another number"
             break;
-        case AdvMath:
+        case advMath:
             return "operation: modulus (m) bitand (a), bitor (o), bitxor (x), and exponentiation (e) \n num1: a number \n num2: another number"
             break;
     }
