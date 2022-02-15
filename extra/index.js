@@ -1,17 +1,19 @@
 
 //help function
 function ejsHelp(){
-    return "ejsBasicMath(operation, num1, num2) \n ejsAdvMath(operation, num1, num2)"
+    console.log("ejsBasicMath(operation, num1, num2)\nejsAdvMath(operation, num1, num2)")
 }
 
-function ejsHelp(name){
+function ejsFunctHelp(name){
     switch(name){
-        case basicMath:
-            return "operaton: add (a), subtract (s), multiply (m), and divide (d) \n num1: a number \n num2: another number"
+        case "basicMath":
+            console.log("operaton: add (a), subtract (s), multiply (m), and divide (d) \n num1: a number \n num2: another number")
             break;
-        case advMath:
-            return "operation: modulus (m) bitand (a), bitor (o), bitxor (x), and exponentiation (e) \n num1: a number \n num2: another number"
+        case "advMath":
+            console.log("operation: modulus (m) bitand (a), bitor (o), bitxor (x), and exponentiation (e) \n num1: a number \n num2: another number")
             break;
+        default:
+            console.error("Syntax Error")
     }
 }
 
